@@ -26,7 +26,8 @@ if ( bb_is_profile() ) {
 <body id="<?php bb_location(); ?>">
 	<div id="wrapper">
 		<div id="header" role="banner">
-			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
+			<!--<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>-->
+			<h1><a href="http://www.meetmychum.com"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><p class="description"><?php bb_option('description'); ?></p><?php endif; ?>
 
 <?php if ( !in_array( bb_get_location(), array( 'login-page', 'register-page' ) ) ) login_form(); ?>
